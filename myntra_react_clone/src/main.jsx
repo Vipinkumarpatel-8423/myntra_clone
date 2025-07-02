@@ -8,8 +8,8 @@ import Home from './routes/Home.jsx';
 import myntraStore from './store/index.js';
 import { Provider } from "react-redux"
 import "bootstrap/dist/css/bootstrap.min.css";
-import Profile from './components/headerComponents/Profile.jsx';
-import Wishlist from './components/headerComponents/Wishlist.jsx';
+import Profile from './components/Profile.jsx';
+import Wishlist from './components/Wishlist.jsx';
 
 const router = createBrowserRouter([
   {
